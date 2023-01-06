@@ -15,6 +15,7 @@ import (
 )
 
 var numMessages int
+var allowConjuctions bool
 
 var rootCmd = &cobra.Command{
 	Use:   "soulmsg",
@@ -23,7 +24,7 @@ var rootCmd = &cobra.Command{
 	Run: func(cmd *cobra.Command, args []string) {
 		rand.Seed(time.Now().UnixNano())
 		for i := 0; i < numMessages; i++ {
-			message := msg.RandomMessage(false)
+			message := msg.RandomMessage(allowConjuctions)
 			fmt.Printf("%s\n", message)
 		}
 	},
@@ -38,4 +39,5 @@ func Execute() {
 
 func init() {
 	rootCmd.Flags().IntVarP(&numMessages, "num-messages", "n", 1, "number of messages to generate")
+	rootCmd.Flags().BoolVarP(&allowConjuctions, "allow-conjunctions", "c", false, "allow conjuctions")
 }

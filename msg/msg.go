@@ -45,5 +45,5 @@ func RandomMessage(allowConjuctions bool) string {
 	}
 	conjuction := RandomConjunction()
 	clause1 := RandomClause()
-	return fmt.Sprintf("%s%s%s", clause0, conjuction, clause1)
+	return fmt.Sprintf("%s %s %s", clause0, conjuction, clause1)
 }
