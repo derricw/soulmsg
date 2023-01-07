@@ -38,12 +38,12 @@ func RandomClause() string {
 	return strings.Replace(template, "****", thing, 1)
 }
 
-func RandomMessage(allowConjuctions bool) string {
+func RandomMessage(withConjuction bool) string {
 	clause0 := RandomClause()
-	if !allowConjuctions {
+	if !withConjuction {
 		return clause0
 	}
 	conjuction := RandomConjunction()
 	clause1 := RandomClause()
-	return fmt.Sprintf("%s %s %s", clause0, conjuction, clause1)
+	return fmt.Sprintf("%s%s %s", clause0, conjuction, clause1)
 }

@@ -26,14 +26,15 @@ var TEMPLATES = [...]string{
 
 var CONJUNCTIONS = [...]string{
 	"",
-	"and then",
-	"therefore",
-	"in short",
-	"or",
-	"only",
-	"by the way",
-	"so to speak",
-	"all the more",
+	" and then",
+	" therefore",
+	" in short",
+	" or",
+	" only",
+	" by the way",
+	" so to speak",
+	" all the more",
+	" but",
 	",",
 }
 
