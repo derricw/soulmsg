@@ -37,3 +37,16 @@ Grab the first message containing something I want.
 ```bash
 soulmsg -c -n -1 | grep woman | head -n 1
 ```
+
+Cowsay
+```bash
+$ soulmsg | cowsay
+ ________________________________
+< be wary of close-ranged battle >
+ --------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+```
