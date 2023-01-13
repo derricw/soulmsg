@@ -6,6 +6,7 @@ package msg
 
 var TEMPLATES = [...]string{
 	"**** ahead",
+	"Amazing **** ahead",
 	"No **** ahead",
 	"**** required ahead",
 	"be wary of ****",
