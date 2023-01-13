@@ -75,7 +75,7 @@ var CATEGORIES = map[string][]string{
 		"demon",
 		"dragon",
 		"knight",
-		"sellword",
+		"sellsword",
 		"warrior",
 		"herald",
 		"bandit",
