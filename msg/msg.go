@@ -35,7 +35,7 @@ func RandomConjunction() string {
 func RandomClause() string {
 	template := RandomTemplate()
 	thing := RandomThing()
-	return strings.Replace(template, "****", thing, 1)
+	return strings.Replace(template, "****", thing, 2)
 }
 
 func RandomMessage(withConjuction bool) string {

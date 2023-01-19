@@ -23,6 +23,7 @@ var TEMPLATES = [...]string{
 	"praise the ****!",
 	"Let there be ****",
 	"Ahh, ****...",
+	"****, O ****",
 }
 
 var CONJUNCTIONS = [...]string{
