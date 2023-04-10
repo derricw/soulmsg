@@ -7,6 +7,8 @@ $ soulmsg
 try miracles
 ```
 
+Try a live version [here](https://derricw.github.io/soulmsg/)
+
 Try `-h` for options.
 
 ### build
