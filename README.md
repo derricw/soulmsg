@@ -9,6 +9,12 @@ try miracles
 
 Try a live version [here](https://derricw.github.io/soulmsg/)
 
+or with curl:
+
+```
+curl -L fir3.link
+```
+
 Try `-h` for options.
 
 ### build
